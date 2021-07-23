@@ -1,11 +1,11 @@
 import React from "react";
-import TestButton from "@button/TestButton";
+import CommonButton from "@button/commonButton";
 
 const App = () => {
   return (
     <div>
       Hello World!
-      <TestButton />
+      <CommonButton btnText={"Hello!"} />
     </div>
   );
 };

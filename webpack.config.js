@@ -12,7 +12,8 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
     alias: {
-      "@button": path.resolve(__dirname, "src/Component/Button"),
+      "@button": path.resolve(__dirname, "src/Component/common/button"),
+      "@page": path.resolve(__dirname, "src/Page"),
     },
   },
   devtool: "eval-cheap-source-map",
@@ -37,7 +38,18 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
+        use: [
+          { loader: "style-loader" },
+          {
+            loader: "css-loader",
+            options: {
+              esModule: true,
+              modules: {
+                namedExport: true,
+              },
+            },
+          },
+        ],
       },
       {
         test: /\.jfif$/,
