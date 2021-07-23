@@ -11,6 +11,9 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx"],
+    alias: {
+      "@button": path.resolve(__dirname, "src/Component/Button"),
+    },
   },
   devtool: "eval-cheap-source-map",
   devServer: {
