@@ -2,8 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths":{
+        "@css/*" : ["./src/Css/*"],
+        "@page/*" : ["./src/Page/*"],
+        "@router/*" : ["./src/Router/*"],
         "@button/*" : ["./src/Component/common/button/*"],
-        "@page/*" : ["./src/Page/*"]
       }
   }
 }
