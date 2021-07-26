@@ -12,10 +12,12 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
     alias: {
-      "@css": path.resolve(__dirname, "src/css"),
+      "@css": path.resolve(__dirname, "src/CSS"),
       "@page": path.resolve(__dirname, "src/Page"),
-      "@router": path.resolve(__dirname, "src/router"),
-      "@button": path.resolve(__dirname, "src/Component/common/button"),
+      "@router": path.resolve(__dirname, "src/Router"),
+      "@comp": path.resolve(__dirname, "src/Component"),
+      "@template": path.resolve(__dirname, "src/Template"),
+      "@button": path.resolve(__dirname, "src/Component/Button"),
     },
   },
   devtool: "eval-cheap-source-map",
@@ -26,6 +28,8 @@ module.exports = {
     hot: true,
     overlay: true,
     writeToDisk: true,
+    inline: true,
+    historyApiFallback: true,
   },
   output: {
     filename: "bundle.[hash].js",

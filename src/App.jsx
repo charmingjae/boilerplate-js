@@ -1,12 +1,11 @@
 import React from "react";
-import CommonButton from "@button/commonButton";
+import NavigationTemplate from "@template/navigationTemplate";
 
 const App = () => {
   return (
-    <div>
-      Hello World!
-      <CommonButton btnText={"Hello!"} />
-    </div>
+    <header>
+      <NavigationTemplate />
+    </header>
   );
 };
 

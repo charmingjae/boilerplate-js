@@ -5,7 +5,9 @@
         "@css/*" : ["./src/Css/*"],
         "@page/*" : ["./src/Page/*"],
         "@router/*" : ["./src/Router/*"],
-        "@button/*" : ["./src/Component/common/button/*"],
+        "@comp/*" : ["./src/Component/*"],
+        "@template/*" : ["./src/Template/*"],
+        "@button/*" : ["./src/Component/Button/*"],
       }
   }
 }

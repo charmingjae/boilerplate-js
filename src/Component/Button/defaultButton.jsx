@@ -1,6 +1,6 @@
 import React from "react";
 
-function CommonButton({ btnText }) {
+function DefaultButton({ btnText }) {
   return (
     <div>
       <button>{btnText}</button>
@@ -8,4 +8,4 @@ function CommonButton({ btnText }) {
   );
 }
 
-export default CommonButton;
+export default DefaultButton;
