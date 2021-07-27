@@ -1,0 +1,41 @@
+.divWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.divContentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    height: 100%;
+    padding-bottom: 30%;
+}
+
+.inputLogin{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e5e8eb;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.inputLogin::placeholder{
+    font-weight: 100;
+    color: lightgray;
+}
+
+.inputLogin:focus{
+    border: solid 2px #0342ef;
+    transition: all 0.15s linear;
+}
+
+.divTheme{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 4rem;
+}

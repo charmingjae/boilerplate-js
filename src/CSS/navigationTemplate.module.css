@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border: solid 2px black;
     padding-top: 20px;
     padding-bottom: 10px;
-    
 }
 
-.item{
+.item:nth-child(1){
+    font-size: 3rem;
+}
 
+.item:nth-child(2){
+    display: flex;
+    flex-direction: row;
 }

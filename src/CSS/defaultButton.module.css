@@ -1,0 +1,35 @@
+.btnPrimary{
+    background: #379471;
+    border-color: #379471;
+    color: white;
+}
+
+.btnPrimary:hover{
+    background-color: #265643;
+    border-color: #265643;
+    transition: 0.2s ease-in-out;
+}
+
+.sizePrimary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.btnSecondary{
+    background: black;
+    border-color:black;
+    color: white;
+}
+
+.btnSecondary:hover{
+    background-color: #0342ef;
+    border-color: #0342ef;
+    transition: 0.2s ease-in-out;
+}
+
+.sizeSecondary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}

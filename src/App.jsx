@@ -1,10 +1,10 @@
 import React from "react";
-import NavigationTemplate from "@template/navigationTemplate";
+import RootRouter from "@router/rootRouter";
 
 const App = () => {
   return (
     <header>
-      <NavigationTemplate />
+      <RootRouter />
     </header>
   );
 };
