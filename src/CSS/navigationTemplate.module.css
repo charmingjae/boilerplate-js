@@ -1,0 +1,14 @@
+.divWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.item{
+
+}
